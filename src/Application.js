@@ -34,7 +34,7 @@ class PizzaCalculator extends Component {
         <Result amount={numberOfPizzas} />
         <button className="full-width" onClick={reset}>
           Reset
-            </button>
+        </button>
       </div>
     );
   }
