@@ -1,7 +1,5 @@
 import AppDispatcher from './AppDispatcher';
 
-
-
 export const updateNumberOfPeople = (value) => {
     const action = { type: 'UPDATE_NUMBER_OF_PEOPLE', value };
     AppDispatcher.dispatch(action);
